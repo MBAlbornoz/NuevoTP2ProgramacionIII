@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AccesoBDatos.cs" />
     <Compile Include="NArticulo.cs" />
     <Compile Include="NCategoria.cs" />
     <Compile Include="NMarca.cs" />

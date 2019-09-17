@@ -8,3 +8,4 @@ C:\Users\Maga.PC-376\Documents\Programacion III\Trabajo Practico II\TP2_Albornoz
 C:\Users\Maga.PC-376\Documents\Programacion III\Trabajo Practico II\TP2_Albornoz\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.csproj.CoreCompileInputs.cache
 C:\Users\Maga.PC-376\Documents\Programacion III\Trabajo Practico II\TP2_Albornoz\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.exe
 C:\Users\Maga.PC-376\Documents\Programacion III\Trabajo Practico II\TP2_Albornoz\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.pdb
+C:\Users\Maga.PC-376\Documents\Programacion III\Trabajo Practico II\TP2_Albornoz\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.FrmAltaArticulo.resources

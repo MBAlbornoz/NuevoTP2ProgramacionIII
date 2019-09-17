@@ -10,22 +10,19 @@ namespace NEGOCIO
 {
     public class NCategoria
     {
-        //CREAR ALTA ARTICULO
-        public void altaArticulo(Articulo articulo)
+        public List<Categoria> ListarCategorias()
         {
-            articulo = new Articulo();
-           
+            List<Categoria> listaCategorias = new List<Categoria>();
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return listaCategorias;
         }
-
-        //BAJA LOGICA DE ARTICULO EN LA BASE DE DATOS
-        public void bajaArticulo(Articulo articulo) { }
-
-        //BUSQUEDA DE TODOS LOS ARTICULOS EN LA BASE DE DATOS Y LOS DEVUELVE
-        public void listarArticulos() { }
-
-        //BUSQUEDA ARTICULO
-        public void busquedaArticulo(Articulo articulo)
-        { }
-
     }
 }

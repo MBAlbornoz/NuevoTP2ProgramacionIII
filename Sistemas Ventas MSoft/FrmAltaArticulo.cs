@@ -10,21 +10,14 @@ using System.Windows.Forms;
 
 namespace Sistemas_Ventas_MSoft
 {
-    public partial class Form1 : Form
+    public partial class FrmAltaArticulo : Form
     {
-        public Form1()
+        public FrmAltaArticulo()
         {
             InitializeComponent();
         }
 
-        private void AltaArticuloTSMenuItem_Click(object sender, EventArgs e)
-        {
-            FrmAltaArticulo alta=new FrmAltaArticulo();
-            alta.ShowDialog();
-        }
-
-        //SALE DEL PROGRAMA
-        private void SalirTSMenuItem_Click(object sender, EventArgs e)
+        private void BtnCancelar_Click(object sender, EventArgs e)
         {
             Dispose();
         }
