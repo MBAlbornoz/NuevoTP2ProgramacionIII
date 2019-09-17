@@ -10,6 +10,15 @@ namespace NEGOCIO
 {
     public class AccesoBDatos
     {
+        public SqlDataReader SqlDataReader { get; set; }
+        public SqlConnection SqlConnection { get; set; }
+        public SqlCommand SqlCommand { get; set; }
 
+
+        //CIERRA LA CONEXION CON LA BASE DE DATOS SLSERVER
+        public void CerrarConexionDB()
+        {
+            SqlConnection.Close();
+        }
     }
 }
