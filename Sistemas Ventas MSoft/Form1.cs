@@ -17,16 +17,16 @@ namespace Sistemas_Ventas_MSoft
             InitializeComponent();
         }
 
-        private void AltaArticuloTSMenuItem_Click(object sender, EventArgs e)
-        {
-            FrmAltaArticulo alta=new FrmAltaArticulo();
-            alta.ShowDialog();
-        }
-
-        //SALE DEL PROGRAMA
-        private void SalirTSMenuItem_Click(object sender, EventArgs e)
+    
+        private void SalirTSMenuItem_Click_1(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void AltaArticuloTSMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAltaArticulo alta = new FrmAltaArticulo();
+            alta.ShowDialog();
         }
     }
 }

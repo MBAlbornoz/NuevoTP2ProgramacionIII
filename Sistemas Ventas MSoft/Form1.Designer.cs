@@ -32,14 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuTSMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.busquedaTSMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.altaArticuloTSMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarArticuloTlSMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listarArticulosTSMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.busquedaTSMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.BajaArticuloTSMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bajaArticuloTlSMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificacionArticuloTSMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listarTSMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirTSMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaTSMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,75 +57,66 @@
             // 
             this.menuTSMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.altaArticuloTSMenuItem,
-            this.modificarArticuloTlSMenuItem,
-            this.BajaArticuloTSMenuItem,
+            this.bajaArticuloTlSMenuItem,
+            this.modificacionArticuloTSMenuItem,
+            this.listarTSMenuItem,
             this.salirTSMenuItem});
             this.menuTSMenu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuTSMenu.Name = "menuTSMenu";
             this.menuTSMenu.Size = new System.Drawing.Size(51, 20);
             this.menuTSMenu.Text = "Menu";
             // 
+            // altaArticuloTSMenuItem
+            // 
+            this.altaArticuloTSMenuItem.BackColor = System.Drawing.SystemColors.Control;
+            this.altaArticuloTSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.altaArticuloTSMenuItem.Name = "altaArticuloTSMenuItem";
+            this.altaArticuloTSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.altaArticuloTSMenuItem.Text = "Alta Articulo";
+            this.altaArticuloTSMenuItem.Click += new System.EventHandler(this.AltaArticuloTSMenuItem_Click);
+            // 
+            // bajaArticuloTlSMenuItem
+            // 
+            this.bajaArticuloTlSMenuItem.BackColor = System.Drawing.SystemColors.Control;
+            this.bajaArticuloTlSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bajaArticuloTlSMenuItem.Name = "bajaArticuloTlSMenuItem";
+            this.bajaArticuloTlSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.bajaArticuloTlSMenuItem.Text = "Baja Articulo";
+            // 
+            // modificacionArticuloTSMenuItem
+            // 
+            this.modificacionArticuloTSMenuItem.BackColor = System.Drawing.SystemColors.Control;
+            this.modificacionArticuloTSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modificacionArticuloTSMenuItem.Name = "modificacionArticuloTSMenuItem";
+            this.modificacionArticuloTSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.modificacionArticuloTSMenuItem.Text = "Modificar Articulo";
+            // 
+            // listarTSMenuItem
+            // 
+            this.listarTSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listarTSMenuItem.Name = "listarTSMenuItem";
+            this.listarTSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.listarTSMenuItem.Text = "Listar Articulos";
+            // 
+            // salirTSMenuItem
+            // 
+            this.salirTSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.salirTSMenuItem.Name = "salirTSMenuItem";
+            this.salirTSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.salirTSMenuItem.Text = "Salir";
+            this.salirTSMenuItem.Click += new System.EventHandler(this.SalirTSMenuItem_Click_1);
+            // 
             // busquedaTSMenu
             // 
-            this.busquedaTSMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.listarArticulosTSMenuItem,
-            this.busquedaTSMenuItem});
             this.busquedaTSMenu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.busquedaTSMenu.Name = "busquedaTSMenu";
             this.busquedaTSMenu.Size = new System.Drawing.Size(73, 20);
             this.busquedaTSMenu.Text = "Busqueda";
             // 
-            // altaArticuloTSMenuItem
-            // 
-            this.altaArticuloTSMenuItem.BackColor = System.Drawing.SystemColors.Control;
-            this.altaArticuloTSMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.altaArticuloTSMenuItem.Name = "altaArticuloTSMenuItem";
-            this.altaArticuloTSMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.altaArticuloTSMenuItem.Text = "Alta Articulo";
-            this.altaArticuloTSMenuItem.Click += new System.EventHandler(this.AltaArticuloTSMenuItem_Click);
-            // 
-            // modificarArticuloTlSMenuItem
-            // 
-            this.modificarArticuloTlSMenuItem.BackColor = System.Drawing.SystemColors.Control;
-            this.modificarArticuloTlSMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modificarArticuloTlSMenuItem.Name = "modificarArticuloTlSMenuItem";
-            this.modificarArticuloTlSMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.modificarArticuloTlSMenuItem.Text = "Modificar Articulo";
-            // 
-            // listarArticulosTSMenuItem
-            // 
-            this.listarArticulosTSMenuItem.BackColor = System.Drawing.SystemColors.Control;
-            this.listarArticulosTSMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listarArticulosTSMenuItem.Name = "listarArticulosTSMenuItem";
-            this.listarArticulosTSMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.listarArticulosTSMenuItem.Text = "Listar Articulos";
-            // 
-            // busquedaTSMenuItem
-            // 
-            this.busquedaTSMenuItem.BackColor = System.Drawing.SystemColors.Control;
-            this.busquedaTSMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.busquedaTSMenuItem.Name = "busquedaTSMenuItem";
-            this.busquedaTSMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.busquedaTSMenuItem.Text = "Busqueda";
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // BajaArticuloTSMenuItem
-            // 
-            this.BajaArticuloTSMenuItem.BackColor = System.Drawing.SystemColors.Control;
-            this.BajaArticuloTSMenuItem.Name = "BajaArticuloTSMenuItem";
-            this.BajaArticuloTSMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.BajaArticuloTSMenuItem.Text = "Baja Articulo";
-            // 
-            // salirTSMenuItem
-            // 
-            this.salirTSMenuItem.Name = "salirTSMenuItem";
-            this.salirTSMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.salirTSMenuItem.Text = "Salir";
-            this.salirTSMenuItem.Click += new System.EventHandler(this.SalirTSMenuItem_Click);
             // 
             // Form1
             // 
@@ -150,12 +140,11 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuTSMenu;
         private System.Windows.Forms.ToolStripMenuItem altaArticuloTSMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarArticuloTlSMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bajaArticuloTlSMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaTSMenu;
-        private System.Windows.Forms.ToolStripMenuItem listarArticulosTSMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem busquedaTSMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem BajaArticuloTSMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificacionArticuloTSMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listarTSMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirTSMenuItem;
     }
 }

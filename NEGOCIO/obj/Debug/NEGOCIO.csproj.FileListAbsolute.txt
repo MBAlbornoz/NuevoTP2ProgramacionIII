@@ -1,0 +1,2 @@
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\NEGOCIO\obj\Debug\NEGOCIO.csprojAssemblyReference.cache
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache

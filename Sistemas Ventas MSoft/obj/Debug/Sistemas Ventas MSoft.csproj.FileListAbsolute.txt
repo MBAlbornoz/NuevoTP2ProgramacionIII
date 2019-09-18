@@ -9,3 +9,14 @@ C:\Users\Maga.PC-376\Documents\Programacion III\Trabajo Practico II\TP2_Albornoz
 C:\Users\Maga.PC-376\Documents\Programacion III\Trabajo Practico II\TP2_Albornoz\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.exe
 C:\Users\Maga.PC-376\Documents\Programacion III\Trabajo Practico II\TP2_Albornoz\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.pdb
 C:\Users\Maga.PC-376\Documents\Programacion III\Trabajo Practico II\TP2_Albornoz\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.FrmAltaArticulo.resources
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.csprojAssemblyReference.cache
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.Form1.resources
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.FrmAltaArticulo.resources
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.Properties.Resources.resources
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.csproj.GenerateResource.cache
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.csproj.CoreCompileInputs.cache
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.exe
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.pdb
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\Sistemas Ventas MSoft.exe.config
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\Sistemas Ventas MSoft.exe
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\Sistemas Ventas MSoft.pdb

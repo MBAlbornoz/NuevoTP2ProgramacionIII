@@ -13,7 +13,11 @@ namespace NEGOCIO
         //CREAR ALTA ARTICULO
     public void AltaArticulo(Articulo articulo)
     {
-        articulo = new Articulo();
+            //articulo = new Articulo();
+            AccesoBDatos bDatos = new AccesoBDatos();
+
+
+          
 
     }
 

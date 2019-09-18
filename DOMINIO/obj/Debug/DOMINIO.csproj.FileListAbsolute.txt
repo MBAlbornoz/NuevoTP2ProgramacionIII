@@ -1,0 +1,2 @@
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\DOMINIO\obj\Debug\DOMINIO.csprojAssemblyReference.cache
+C:\Users\Maggy\Source\Repos\NuevoTP2ProgramacionIII\DOMINIO\obj\Debug\DOMINIO.csproj.CoreCompileInputs.cache
