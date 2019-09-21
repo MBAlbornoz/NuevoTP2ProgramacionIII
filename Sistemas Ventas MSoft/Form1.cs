@@ -25,8 +25,16 @@ namespace Sistemas_Ventas_MSoft
 
         private void AltaArticuloTSMenuItem_Click(object sender, EventArgs e)
         {
+
             FrmAltaArticulo alta = new FrmAltaArticulo();
+          
             alta.ShowDialog();
+        }
+
+        private void ListarTSMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmListarArticulos listarArticulos = new FrmListarArticulos();
+            listarArticulos.ShowDialog();
         }
     }
 }

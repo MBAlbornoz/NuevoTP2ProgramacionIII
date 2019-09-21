@@ -97,6 +97,7 @@
             this.listarTSMenuItem.Name = "listarTSMenuItem";
             this.listarTSMenuItem.Size = new System.Drawing.Size(187, 22);
             this.listarTSMenuItem.Text = "Listar Articulos";
+            this.listarTSMenuItem.Click += new System.EventHandler(this.ListarTSMenuItem_Click);
             // 
             // salirTSMenuItem
             // 

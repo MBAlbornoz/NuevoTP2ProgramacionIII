@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,6 +59,18 @@
     <Compile Include="FrmAltaArticulo.Designer.cs">
       <DependentUpon>FrmAltaArticulo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConfirmacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfirmacion.Designer.cs">
+      <DependentUpon>FrmConfirmacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListarArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListarArticulos.Designer.cs">
+      <DependentUpon>FrmListarArticulos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +78,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAltaArticulo.resx">
       <DependentUpon>FrmAltaArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfirmacion.resx">
+      <DependentUpon>FrmConfirmacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListarArticulos.resx">
+      <DependentUpon>FrmListarArticulos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,6 +106,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DOMINIO\DOMINIO.csproj">
+      <Project>{5ffaca8f-ef9d-4f68-8933-5ac234d1cb36}</Project>
+      <Name>DOMINIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NEGOCIO\NEGOCIO.csproj">
+      <Project>{b3f489ba-17c9-4147-b2c4-37662dfcbfb2}</Project>
+      <Name>NEGOCIO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

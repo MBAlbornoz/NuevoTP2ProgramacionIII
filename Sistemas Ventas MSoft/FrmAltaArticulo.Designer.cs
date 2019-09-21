@@ -69,6 +69,7 @@
             this.btnAgregarA.TabIndex = 28;
             this.btnAgregarA.Text = "Agregar";
             this.btnAgregarA.UseVisualStyleBackColor = true;
+            this.btnAgregarA.Click += new System.EventHandler(this.BtnAgregarA_Click);
             // 
             // txtPrecio
             // 
@@ -101,6 +102,7 @@
             // 
             // cboMarca
             // 
+            this.cboMarca.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cboMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboMarca.FormattingEnabled = true;
             this.cboMarca.Location = new System.Drawing.Point(173, 130);
@@ -221,6 +223,7 @@
             this.Controls.Add(this.txtCodigo);
             this.Name = "FrmAltaArticulo";
             this.Text = "Alta Articulo";
+            this.Load += new System.EventHandler(this.FrmAltaArticulo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureArticulo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

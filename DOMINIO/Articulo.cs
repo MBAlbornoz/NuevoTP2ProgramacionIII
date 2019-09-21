@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace DOMINIO
 {
     public class Articulo
+
     {
         public int id { get; set; }
         public string Codigo { get; set; }
@@ -35,3 +36,5 @@ namespace DOMINIO
             return Nombre;
         }
     }
+
+}
