@@ -6,3 +6,9 @@ C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\DOMINIO\bin\Deb
 C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\DOMINIO\bin\Debug\DOMINIO.pdb
 C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\DOMINIO\obj\Debug\DOMINIO.dll
 C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\DOMINIO\obj\Debug\DOMINIO.pdb
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\DOMINIO\bin\Debug\DOMINIO.dll
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\DOMINIO\bin\Debug\DOMINIO.pdb
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\DOMINIO\obj\Debug\DOMINIO.csprojAssemblyReference.cache
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\DOMINIO\obj\Debug\DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\DOMINIO\obj\Debug\DOMINIO.dll
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\DOMINIO\obj\Debug\DOMINIO.pdb

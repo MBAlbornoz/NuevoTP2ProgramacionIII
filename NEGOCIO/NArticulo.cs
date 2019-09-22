@@ -6,6 +6,16 @@ namespace NEGOCIO
 {
     public class NArticulo
     {
+        private Articulo articulo;
+
+        public NArticulo(Articulo articulo)
+        {
+            this.articulo = articulo;
+        }
+
+        public NArticulo()
+        {
+        }
 
         //CREAR ALTA ARTICULO
         public void AltaArticulo(Articulo articulo)
@@ -53,6 +63,7 @@ namespace NEGOCIO
                 datos.agregarParametro("@Precio", articulo.Precio);
                 datos.agregarParametro("@IdCategoria", articulo.Categoria.Id);
                 datos.agregarParametro("@IdMarca", articulo.Marca.Id);
+
                 datos.ejecutarAccion();
 
             }

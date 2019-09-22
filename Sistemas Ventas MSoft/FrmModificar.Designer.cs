@@ -42,7 +42,7 @@
             this.txtCodigoArt = new System.Windows.Forms.TextBox();
             this.txtCodigo = new System.Windows.Forms.Label();
             this.dgvModificar = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.cboCategorias = new System.Windows.Forms.ComboBox();
@@ -183,12 +183,12 @@
             this.dgvModificar.Size = new System.Drawing.Size(704, 284);
             this.dgvModificar.TabIndex = 41;
             // 
-            // textBox1
+            // txtBuscar
             // 
-            this.textBox1.Location = new System.Drawing.Point(8, 238);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 20);
-            this.textBox1.TabIndex = 44;
+            this.txtBuscar.Location = new System.Drawing.Point(8, 238);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(195, 20);
+            this.txtBuscar.TabIndex = 44;
             // 
             // btnCancelar
             // 
@@ -241,7 +241,7 @@
             this.Controls.Add(this.cboCategorias);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.dgvModificar);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.lblPrecio);
@@ -256,7 +256,7 @@
             this.Controls.Add(this.txtCodigoArt);
             this.Controls.Add(this.txtCodigo);
             this.Name = "FrmModificar";
-            this.Text = "FrmModificar";
+            this.Text = "Modificar";
             this.Load += new System.EventHandler(this.FrmModificar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureArticulo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvModificar)).EndInit();
@@ -280,7 +280,7 @@
         private System.Windows.Forms.TextBox txtCodigoArt;
         private System.Windows.Forms.Label txtCodigo;
         private System.Windows.Forms.DataGridView dgvModificar;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.ComboBox cboCategorias;
