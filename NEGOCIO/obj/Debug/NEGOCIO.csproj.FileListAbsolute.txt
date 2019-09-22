@@ -9,3 +9,12 @@ C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\NEGOCIO\bin\Deb
 C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
 C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\NEGOCIO\obj\Debug\NEGOCIO.dll
 C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\NEGOCIO\obj\Debug\NEGOCIO.pdb
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\NEGOCIO\bin\Debug\DOMINIO.dll
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\NEGOCIO\bin\Debug\DOMINIO.pdb
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\NEGOCIO\obj\Debug\NEGOCIO.csprojAssemblyReference.cache
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\NEGOCIO\obj\Debug\NEGOCIO.pdb

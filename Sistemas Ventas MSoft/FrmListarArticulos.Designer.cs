@@ -56,7 +56,7 @@
             // 
             this.dgvListarArticulos.BackgroundColor = System.Drawing.Color.White;
             this.dgvListarArticulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvListarArticulos.Location = new System.Drawing.Point(9, 35);
+            this.dgvListarArticulos.Location = new System.Drawing.Point(29, 53);
             this.dgvListarArticulos.Name = "dgvListarArticulos";
             this.dgvListarArticulos.Size = new System.Drawing.Size(712, 301);
             this.dgvListarArticulos.TabIndex = 3;
@@ -65,7 +65,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(774, 387);
             this.Controls.Add(this.dgvListarArticulos);
             this.Controls.Add(this.txtBusqueda);
             this.Controls.Add(this.lblBusqueda);

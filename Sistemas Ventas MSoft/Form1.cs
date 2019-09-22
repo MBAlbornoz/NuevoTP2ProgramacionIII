@@ -24,10 +24,8 @@ namespace Sistemas_Ventas_MSoft
         }
 
         private void AltaArticuloTSMenuItem_Click(object sender, EventArgs e)
-        {
-
+        { 
             FrmAltaArticulo alta = new FrmAltaArticulo();
-          
             alta.ShowDialog();
         }
 
@@ -35,6 +33,19 @@ namespace Sistemas_Ventas_MSoft
         {
             FrmListarArticulos listarArticulos = new FrmListarArticulos();
             listarArticulos.ShowDialog();
+        }
+
+        private void ModificacionArticuloTSMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmModificar modificarArticulos = new FrmModificar();
+            modificarArticulos.ShowDialog();
+        }
+
+        private void BajaArticuloTlSMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmModificar bajaArticulos = new FrmModificar();
+            bajaArticulos.Text = "Eliminar";
+            bajaArticulos.ShowDialog();
         }
     }
 }

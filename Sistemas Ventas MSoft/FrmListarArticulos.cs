@@ -24,10 +24,12 @@ namespace Sistemas_Ventas_MSoft
 
         private void FrmListarArticulos_Load(object sender, EventArgs e)
         {
+          
             NArticulo negocioArticulo = new NArticulo();
             dgvListarArticulos.DataSource = negocioArticulo.ListarArticulos();
             dgvListarArticulos.Columns[0].Visible = false;
             dgvListarArticulos.Columns[6].Visible = false;
+      
         }
     }
 }

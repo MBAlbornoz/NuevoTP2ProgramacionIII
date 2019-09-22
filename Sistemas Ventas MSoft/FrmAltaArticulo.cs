@@ -14,7 +14,7 @@ namespace Sistemas_Ventas_MSoft
 {
     public partial class FrmAltaArticulo : Form
     {
-        Articulo articulo = new Articulo();
+        
         public FrmAltaArticulo()
         {
             InitializeComponent();
@@ -29,7 +29,8 @@ namespace Sistemas_Ventas_MSoft
         {
             
             NArticulo negocioArticulo = new NArticulo();
-            
+            Articulo articulo = new Articulo();
+
             try
             {
                 articulo.Codigo = txtCodigoArt.Text;
@@ -43,7 +44,7 @@ namespace Sistemas_Ventas_MSoft
                 //Llama a funcion agregar y le mando por parametro el articulo a agregar
                
                 negocioArticulo.AltaArticulo(articulo);
-                MessageBox.Show("Se dio de alta el articulo");
+                MessageBox.Show("El Articulo se agrego correctamente");
                 Dispose();
 
             }
@@ -58,6 +59,7 @@ namespace Sistemas_Ventas_MSoft
         {
             NMarca negocioMarca = new NMarca();
             NCategoria negocioCategoria = new NCategoria();
+
             try
             {
                 cboCategoria.DataSource = negocioCategoria.ListarCategorias(); //GUARDO LA LISTA EN EL COMBO

@@ -38,3 +38,22 @@ C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\Sistemas Ventas
 C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.csproj.CopyComplete
 C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.FrmConfirmacion.resources
 C:\Users\Maga.PC-376\source\repos\NuevoTP2ProgramacionIII-master\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.FrmListarArticulos.resources
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\Sistemas Ventas MSoft.exe.config
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\Sistemas Ventas MSoft.exe
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\Sistemas Ventas MSoft.pdb
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\DOMINIO.dll
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\NEGOCIO.dll
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\DOMINIO.pdb
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\bin\Debug\NEGOCIO.pdb
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.csprojAssemblyReference.cache
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.Form1.resources
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.FrmAltaArticulo.resources
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.FrmConfirmacion.resources
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.FrmListarArticulos.resources
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.Properties.Resources.resources
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.csproj.GenerateResource.cache
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.csproj.CoreCompileInputs.cache
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.csproj.CopyComplete
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.exe
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas Ventas MSoft.pdb
+C:\Users\Maga.PC-376\Source\Repos\MBAlbornoz\NuevoTP2ProgramacionIII\Sistemas Ventas MSoft\obj\Debug\Sistemas_Ventas_MSoft.FrmModificar.resources

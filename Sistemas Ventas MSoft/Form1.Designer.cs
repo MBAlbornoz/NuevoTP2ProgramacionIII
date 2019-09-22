@@ -44,12 +44,15 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuTSMenu,
             this.busquedaTSMenu});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.menuStrip1.Size = new System.Drawing.Size(784, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -61,9 +64,9 @@
             this.modificacionArticuloTSMenuItem,
             this.listarTSMenuItem,
             this.salirTSMenuItem});
-            this.menuTSMenu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuTSMenu.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuTSMenu.Name = "menuTSMenu";
-            this.menuTSMenu.Size = new System.Drawing.Size(51, 20);
+            this.menuTSMenu.Size = new System.Drawing.Size(55, 21);
             this.menuTSMenu.Text = "Menu";
             // 
             // altaArticuloTSMenuItem
@@ -71,7 +74,7 @@
             this.altaArticuloTSMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.altaArticuloTSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.altaArticuloTSMenuItem.Name = "altaArticuloTSMenuItem";
-            this.altaArticuloTSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.altaArticuloTSMenuItem.Size = new System.Drawing.Size(188, 22);
             this.altaArticuloTSMenuItem.Text = "Alta Articulo";
             this.altaArticuloTSMenuItem.Click += new System.EventHandler(this.AltaArticuloTSMenuItem_Click);
             // 
@@ -80,22 +83,24 @@
             this.bajaArticuloTlSMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.bajaArticuloTlSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bajaArticuloTlSMenuItem.Name = "bajaArticuloTlSMenuItem";
-            this.bajaArticuloTlSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.bajaArticuloTlSMenuItem.Size = new System.Drawing.Size(188, 22);
             this.bajaArticuloTlSMenuItem.Text = "Baja Articulo";
+            this.bajaArticuloTlSMenuItem.Click += new System.EventHandler(this.BajaArticuloTlSMenuItem_Click);
             // 
             // modificacionArticuloTSMenuItem
             // 
             this.modificacionArticuloTSMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.modificacionArticuloTSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.modificacionArticuloTSMenuItem.Name = "modificacionArticuloTSMenuItem";
-            this.modificacionArticuloTSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.modificacionArticuloTSMenuItem.Size = new System.Drawing.Size(188, 22);
             this.modificacionArticuloTSMenuItem.Text = "Modificar Articulo";
+            this.modificacionArticuloTSMenuItem.Click += new System.EventHandler(this.ModificacionArticuloTSMenuItem_Click);
             // 
             // listarTSMenuItem
             // 
             this.listarTSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listarTSMenuItem.Name = "listarTSMenuItem";
-            this.listarTSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.listarTSMenuItem.Size = new System.Drawing.Size(188, 22);
             this.listarTSMenuItem.Text = "Listar Articulos";
             this.listarTSMenuItem.Click += new System.EventHandler(this.ListarTSMenuItem_Click);
             // 
@@ -103,15 +108,15 @@
             // 
             this.salirTSMenuItem.Font = new System.Drawing.Font("Constantia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.salirTSMenuItem.Name = "salirTSMenuItem";
-            this.salirTSMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.salirTSMenuItem.Size = new System.Drawing.Size(188, 22);
             this.salirTSMenuItem.Text = "Salir";
             this.salirTSMenuItem.Click += new System.EventHandler(this.SalirTSMenuItem_Click_1);
             // 
             // busquedaTSMenu
             // 
-            this.busquedaTSMenu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.busquedaTSMenu.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.busquedaTSMenu.Name = "busquedaTSMenu";
-            this.busquedaTSMenu.Size = new System.Drawing.Size(73, 20);
+            this.busquedaTSMenu.Size = new System.Drawing.Size(80, 21);
             this.busquedaTSMenu.Text = "Busqueda";
             // 
             // contextMenuStrip1
@@ -124,7 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";

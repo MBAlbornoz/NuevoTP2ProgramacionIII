@@ -9,33 +9,8 @@ namespace NEGOCIO
 
         //CREAR ALTA ARTICULO
         public void AltaArticulo(Articulo articulo)
-        {/*
-            SqlCommand sqlCommand = new SqlCommand();
-            SqlConnection sqlConnection = new SqlConnection();
-
-            try
-            {
-                sqlConnection.ConnectionString = ("data source=.\\SQLEXPRESS;initial catalog=CATALOGO_DB;integrated security=sspi");
-                sqlCommand.CommandType = System.Data.CommandType.Text;
-                sqlCommand.Connection = sqlConnection;
-                sqlCommand.CommandText = "INSERT INTO ARTICULOS VALUES(@Codigo,@Nombre,@Descripcion,@IdMarca,@IdCategoria,@Imagen,@Precio)";
-                sqlCommand.Parameters.Clear();
-               
-                sqlCommand.Parameters.AddWithValue("@Codigo", articulo.Codigo);
-                sqlCommand.Parameters.AddWithValue("@Nombre", articulo.Nombre);
-                sqlCommand.Parameters.AddWithValue("@Descripcion", articulo.Descripcion);
-                sqlCommand.Parameters.AddWithValue("@IdMarca", articulo.Marca.Id);
-                sqlCommand.Parameters.AddWithValue("@IdCategoria", articulo.Categoria.Id);
-                sqlCommand.Parameters.AddWithValue("@Imagen", articulo.Imagen);
-                sqlCommand.Parameters.AddWithValue("@Precio", articulo.Precio);
-
-                sqlCommand.Connection = sqlConnection;
-                sqlConnection.Open();
-                sqlCommand.ExecuteNonQuery(); */
-         ///////////////////////////////////////////
+        {
             AccesoBDatos bDatos = new AccesoBDatos();
-
-
             try
             {
                 string query = "INSERT INTO ARTICULOS VALUES('" + articulo.Codigo + "' ,'" + articulo.Nombre + "' ,'" + articulo.Descripcion + "' ,'" + articulo.Marca.Id + "' ,'" + articulo.Categoria.Id + "' ,'" + articulo.Imagen + "' ,'" + articulo.Precio + "' )";
@@ -51,8 +26,41 @@ namespace NEGOCIO
         }
 
         //BAJA LOGICA DE ARTICULO EN LA BASE DE DATOS
-        public void bajaArticulo(Articulo articulo) { }
+        public void BajaArticulo(Articulo articulo) {
+            AccesoBDatos datos = new AccesoBDatos();
+            try
+            {
+                datos.seterQuery("delete from ARTICULOS where id =" + articulo.id);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
 
+        }
+
+        //MODIFICAR
+        public void ModificarArticulo(Articulo articulo)
+        {
+            AccesoBDatos datos = new AccesoBDatos();
+            try
+            {
+                datos.seterQuery("Update ARTICULOS set Codigo=@Codigo, Nombre=@Nombre, Descripcion=@Descripcion, Precio=@Precio, IdCategoria=@IdCategoria, IdMarca=@IdMarca Where Id=@Id");
+                datos.agregarParametro("@Nombre", articulo.Nombre);
+                datos.agregarParametro("@Codigo", articulo.Codigo);
+                datos.agregarParametro("@Descripcion", articulo.Descripcion);
+                datos.agregarParametro("@Precio", articulo.Precio);
+                datos.agregarParametro("@IdCategoria", articulo.Categoria.Id);
+                datos.agregarParametro("@IdMarca", articulo.Marca.Id);
+                datos.ejecutarAccion();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         //BUSQUEDA DE TODOS LOS ARTICULOS EN LA BASE DE DATOS Y LOS DEVUELVE
         public List<Articulo> ListarArticulos()
         {
@@ -64,9 +72,6 @@ namespace NEGOCIO
             {
                 datos.SqlCommand.CommandType = System.Data.CommandType.Text;
                 datos.SqlCommand.CommandText = "SELECT A.Id, A.Codigo, A.Nombre,A.Descripcion, A.Imagen, A.Precio, M.Descripcion AS 'Marca', C.Descripcion AS 'Categoria'  FROM ARTICULOS as A INNER JOIN MARCAS AS M ON A.IdMarca=M.Id INNER JOIN CATEGORIAS AS C ON A.IdCategoria=C.Id";
-                //datos.SqlCommand.CommandText = "SELECT A.ID AS 'ID_A', A.CODIGO, A.NOMBRE, A.DESCRIPCION, M.ID AS 'ID_MARCA', M.DESCRIPCION AS 'MARCA',C.ID AS 'ID_CAT',C.DESCRIPCION AS'CATEGORIA'FROM ARTICULOS AS A INNER JOIN MARCAS AS M ON A.Id=M.Id INNER JOIN CATEGORIAS AS C ON A.Id=C.Id";
-
-
                 datos.SqlConnection.Open();
                 datos.SqlDataReader = datos.SqlCommand.ExecuteReader();
 
