@@ -208,6 +208,7 @@
             this.btnModificar.TabIndex = 46;
             this.btnModificar.Text = "Guardar Cambios";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
             // cboCategorias
             // 

@@ -39,6 +39,7 @@ namespace Sistemas_Ventas_MSoft
 
         private void ModificacionArticuloTSMenuItem_Click(object sender, EventArgs e)
         {
+          
             FrmModificar modificarArticulos = new FrmModificar();
             modificarArticulos.ShowDialog();
         }
